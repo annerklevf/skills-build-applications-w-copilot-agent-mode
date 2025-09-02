@@ -1,0 +1,95 @@
+
+.App {
+  text-align: center;
+  background: linear-gradient(135deg, #f8fafc 0%, #e0e7ff 100%);
+  min-height: 100vh;
+}
+
+.App-logo {
+  height: 60px;
+  margin-right: 20px;
+  vertical-align: middle;
+}
+
+.navbar {
+  background: linear-gradient(90deg, #6366f1 0%, #60a5fa 100%);
+  box-shadow: 0 2px 8px rgba(99,102,241,0.1);
+}
+.navbar-brand, .nav-link {
+  color: #fff !important;
+  font-weight: 600;
+}
+.navbar-brand img {
+  height: 40px;
+  margin-right: 10px;
+}
+
+.card-header {
+  background: linear-gradient(90deg, #6366f1 0%, #60a5fa 100%);
+  color: #fff;
+  font-weight: bold;
+}
+.card-title {
+  color: #6366f1;
+}
+.btn {
+  border-radius: 20px;
+  font-weight: 500;
+}
+.btn-success {
+  background-color: #34d399;
+  border: none;
+}
+.btn-info {
+  background-color: #60a5fa;
+  border: none;
+}
+.btn-warning {
+  background-color: #fbbf24;
+  border: none;
+}
+.btn-secondary {
+  background-color: #a78bfa;
+  border: none;
+}
+.btn-danger {
+  background-color: #f87171;
+  border: none;
+}
+.table {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(99,102,241,0.05);
+}
+.table th {
+  background-color: #6366f1;
+  color: #fff;
+}
+.table-striped tbody tr:nth-of-type(odd) {
+  background-color: #e0e7ff;
+}
+.card {
+  box-shadow: 0 2px 8px rgba(99,102,241,0.08);
+}
+.modal-content {
+  border-radius: 20px;
+}
+.modal-header {
+  background: linear-gradient(90deg, #6366f1 0%, #60a5fa 100%);
+  color: #fff;
+}
+.modal-footer {
+  background-color: #f8fafc;
+}
+.form-control {
+  border-radius: 10px;
+  border: 1px solid #6366f1;
+}
+.form-label {
+  color: #6366f1;
+  font-weight: 500;
+}
+.App-link {
+  color: #6366f1;
+  font-weight: 600;
+}
